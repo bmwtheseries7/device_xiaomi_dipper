@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dipper.mk
+    $(LOCAL_DIR)/afterlife_dipper.mk
+
+COMMON_LUNCH_CHOICES := \
+    afterlife_dipper-user \
+    afterlife_dipper-userdebug \
+    afterlife_dipper-eng
