@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dipper.mk
+    $(LOCAL_DIR)/dipper.mk
+
+COMMON_LUNCH_CHOICES := \
+    dipper-eng \
+    dipper-user \
+    dipper-userdebug
